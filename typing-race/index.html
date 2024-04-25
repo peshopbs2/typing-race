@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ПГЕЕ предизвикателство</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="welcome-screen">
+        <form id="name-form">
+            <label for="user-name">Въведи име:</label>
+            <input type="text" id="user-name" required>
+            <button type="submit">Започни играта</button>
+        </form>
+    </div>
+    <div id="game-container" style="display:none;">
+        <img src="logo.png" style="margin: 10px auto; height: 100px;" />
+        <div id="user-greeting"></div>
+        <div id="timer">Време: 0с</div>
+        <div id="text-display" style="display: none;"></div>
+        <textarea id="typing-input" spellcheck="false" placeholder="Пиши тук..." autofocus rows="20"></textarea>
+        <button id="submit-btn">Готово</button>
+        <div id="result-display"></div>
+        <div id="score-display"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

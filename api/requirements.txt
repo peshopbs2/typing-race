@@ -1,0 +1,4 @@
+Flask
+Flask-SQLAlchemy==3.0.2
+mysqlclient
+Werkzeug==2.2.2
